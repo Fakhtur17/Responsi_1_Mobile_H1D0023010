@@ -33,6 +33,12 @@ Dengan kombinasi antara teknologi API modern, arsitektur aplikasi yang efisien, 
 
 Secara keseluruhan, Responsi 1 Mobile – Charlton Athletic FC merepresentasikan integrasi yang solid antara data layer, logic layer, dan UI layer dalam satu sistem yang mudah dipelihara, cepat direspons, serta menyuguhkan pengalaman pengguna yang menyenangkan dan profesional.
 
+Demo Aplikasi 
+
+
+https://github.com/user-attachments/assets/147b31a7-1ee4-4705-a57c-f7003f1c418b
+
+
 
 Penjelasan Alur 
 
