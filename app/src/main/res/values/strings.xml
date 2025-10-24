@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Responsi 1 Mobile (H1D023010)</string>
+    <string name="club">Club History</string>
+    <string name="nama_club">Nama TIM</string>
+    <string name="coach">Head Coach</string>
+    <string name="team">Team Squad</string>
+    <string name="deskripsi">
+        Charlton Athletic Football Club adalah sebuah klub sepak bola Inggris yang didirikan tahun 1905. Klub ini memainkan pertandingan kandangnya di Stadion The Valley di Charlton, Greenwich, London, yang berkapasitas 27.111 kursi. Mereka bermain di Liga Satu Inggris.
+        Klub ini ditemukan pada tanggal 9 June 1905, saat sejumlah klub-klub pemuda di daerah tenggara London, termasuk East Street Mission dan Blundell Mission bergabung dan membentuk Charlton Athletic. Seragam mereka biasa didominasi warna merah, celana putih, dan kaos kaki merah.
+    </string>
+    <string name="profil_lulusan">Profil Lulusan</string>
+    <string name="club_history_sample">
+Charlton Athletic Football Club didirikan pada 9 Juni 1905 oleh sekelompok remaja di daerah Charlton, London Tenggara. Klub ini lahir dari semangat komunitas lokal yang ingin memiliki tim sepak bola mereka sendiri. Setelah bermain di liga-liga kecil lokal, Charlton mulai menunjukkan potensi besar dan perlahan naik ke kompetisi yang lebih tinggi.
+\n\n
+Pada tahun 1919, klub berpindah ke stadion yang kemudian dikenal sebagai The Valley — sebuah bekas tambang kapur yang diubah oleh para pendukung menjadi lapangan sepak bola yang menjadi rumah kebanggaan mereka hingga kini. Tahun 1920 menjadi tonggak penting ketika Charlton resmi menjadi klub profesional, dan setahun kemudian mereka memainkan pertandingan pertama mereka di Football League Division Three South.
+\n\n
+Periode antara 1930 hingga 1940 menjadi masa keemasan bagi Charlton. Klub berhasil meraih promosi beruntun hingga mencapai First Division, kasta tertinggi sepak bola Inggris saat itu. Pada musim 1936–1937, Charlton menempati posisi kedua klasemen akhir. Setelah Perang Dunia II, mereka menjuarai Piala FA tahun 1947 setelah sebelumnya menjadi finalis pada tahun 1946.
+\n\n
+Namun, perjalanan klub tidak selalu mulus. Dekade-dekade berikutnya diwarnai pasang surut performa, pergantian manajer, serta tantangan finansial. Pada tahun 1985, Charlton harus meninggalkan The Valley karena masalah keamanan dan berbagi stadion dengan Crystal Palace di Selhurst Park. Para pendukung membentuk gerakan “Valley Party” dan berhasil memperjuangkan kembalinya klub ke rumah asalnya pada tahun 1992 — momen yang menegaskan kekuatan solidaritas mereka.
+\n\n
+Di era modern, Charlton sempat kembali ke Premier League pada awal 2000-an. Setelah beberapa kali promosi dan degradasi, Charlton tetap menjadi simbol kebanggaan masyarakat London Selatan. Kini, Charlton Athletic terus berjuang dengan semangat pantang menyerah, sementara The Valley tetap menjadi pusat emosi para Addicks.
+    </string>
+
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 🌿 Primary Palette -->
+    <color name="colorPrimary">#3F9042</color> <!-- Hijau utama -->
+    <color name="colorPrimaryDark">#2E7032</color> <!-- Hijau tua -->
+    <color name="colorPrimaryLight">#69B86E</color> <!-- Hijau muda -->
+    <color name="colorAccent">#FFC41F</color> <!-- Kuning emas -->
+    <color name="colorSecondary">#FFD966</color> <!-- Kuning lembut -->
+
+    <!-- ⚪️ Grayscale & Background -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grayDark">#333333</color>
+    <color name="grayMedium">#777777</color>
+    <color name="grayLight">#CCCCCC</color>
+    <color name="backgroundLight">#F5F7F8</color>
+    <color name="backgroundCard">#DEEBF7</color> <!-- Latar belakang kartu -->
+    <color name="divider">#E0E0E0</color>
+
+    <!-- 🔵 Informational colors -->
+    <color name="infoBlue">#2196F3</color>
+    <color name="successGreen">#4CAF50</color>
+    <color name="warningYellow">#FFC107</color>
+    <color name="errorRed">#F44336</color>
+
+    <!-- ⚽️ Posisi pemain (untuk RecyclerView warna kartu) -->
+    <color name="goalkeeperYellow">#FFDE59</color>
+    <color name="defenderBlue">#598BFF</color>
+    <color name="midfielderGreen">#7DDA58</color>
+    <color name="forwardRed">#E4080A</color>
+
+    <!-- 🌈 Gradients / Decorative -->
+    <color name="gradientStart">#3F9042</color>
+    <color name="gradientEnd">#FFC41F</color>
+
+    <!-- 🖋️ Text Colors -->
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="textOnPrimary">#FFFFFF</color>
+    <color name="colorLayout">#DEEBF7</color>
+
+</resources>
