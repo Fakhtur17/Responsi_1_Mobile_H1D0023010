@@ -11,6 +11,29 @@ Responsi 1 Praktikum Pemograman Mobile
 
 Deskripsi Aplikasi
 
+Aplikasi “Responsi 1 Mobile – Charlton Athletic FC” merupakan aplikasi Android yang dirancang untuk menampilkan informasi klub sepak bola Charlton Athletic FC secara real-time dan interaktif. Aplikasi ini dikembangkan menggunakan bahasa Kotlin dengan pendekatan modern Android development, yang mengutamakan efisiensi, kecepatan respons, serta tampilan antarmuka pengguna (UI) yang intuitif dan menarik.
+
+Tujuan utama aplikasi ini adalah memberikan kemudahan bagi pengguna untuk memperoleh data terbaru seputar klub Charlton Athletic FC, termasuk profil klub, data pelatih utama, serta daftar lengkap pemain (squad). Semua data diperoleh langsung dari Football-Data.org API, sebuah sumber resmi yang menyediakan data sepak bola dunia secara komprehensif dan terverifikasi.
+
+Dalam pembangunannya, aplikasi ini memanfaatkan Retrofit sebagai library utama untuk komunikasi jaringan (network request), serta GsonConverterFactory untuk melakukan konversi data dari format JSON ke objek Kotlin secara otomatis. Selain itu, seluruh proses pengambilan data dilakukan secara asynchronous menggunakan Kotlin Coroutines, agar kinerja aplikasi tetap ringan dan tidak mengganggu kenyamanan pengguna saat berinteraksi dengan antarmuka.
+
+Aplikasi ini terdiri dari beberapa halaman utama yang saling terintegrasi, antara lain:
+
+MainActivity berfungsi sebagai halaman beranda yang menampilkan nama dan logo klub, sekaligus menyediakan navigasi menuju halaman lainnya.
+
+HalamanClubActivity menyajikan informasi umum dan sejarah klub dalam format teks deskriptif.
+
+HalamanCoachActivity menampilkan data lengkap mengenai pelatih utama, seperti nama, negara asal, dan tanggal lahir, disertai efek animasi fade-in untuk meningkatkan pengalaman visual pengguna.
+
+HalamanTeamActivity menampilkan daftar lengkap pemain Charlton Athletic FC dalam bentuk RecyclerView, di mana setiap posisi pemain memiliki warna kartu yang berbeda untuk memperjelas peran di lapangan.
+
+Setiap elemen tampilan diatur dengan prinsip Material Design, menghadirkan kesan modern dan bersih. Selain itu, aplikasi juga menggunakan BottomSheetDialog untuk menampilkan detail pemain secara ringkas dan interaktif tanpa harus berpindah halaman.
+
+Dengan kombinasi antara teknologi API modern, arsitektur aplikasi yang efisien, dan tampilan antarmuka yang menarik, aplikasi ini tidak hanya berfungsi sebagai sarana informasi, tetapi juga sebagai contoh implementasi nyata pengembangan aplikasi Android berbasis data dinamis.
+
+Secara keseluruhan, Responsi 1 Mobile – Charlton Athletic FC merepresentasikan integrasi yang solid antara data layer, logic layer, dan UI layer dalam satu sistem yang mudah dipelihara, cepat direspons, serta menyuguhkan pengalaman pengguna yang menyenangkan dan profesional.
+
+
 Penjelasan Alur 
 
 
