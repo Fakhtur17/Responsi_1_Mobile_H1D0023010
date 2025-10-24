@@ -13,18 +13,16 @@ Deskripsi Aplikasi
 
 Penjelasan Alur 
 
-Oke! Berikut versi **penjelasan alur yang lebih panjang, lengkap, dan terstruktur** dari teks kamu sebelumnya.
-Versi ini bisa langsung kamu pakai untuk laporan proyek, file README, atau dokumen teknis karena sudah menggunakan bahasa akademik yang runtut 👇
 
 ---
 
-## **Penjelasan Alur Proses Aplikasi "Responsi 1 Mobile – Nottingham Forest FC"**
+## **Penjelasan Alur Proses Aplikasi "Responsi 1 Mobile – Charlton Athletic FC"**
 
-Aplikasi *Responsi 1 Mobile – Nottingham Forest FC* dirancang untuk menampilkan informasi lengkap tentang klub sepak bola Nottingham Forest FC secara real-time dengan memanfaatkan API publik dari **Football-Data.org**. Aplikasi ini dibuat menggunakan bahasa **Kotlin**, dengan dukungan **Retrofit** sebagai library komunikasi jaringan dan **Kotlin Coroutines** untuk pengelolaan proses asynchronous.
+Aplikasi *Responsi 1 Mobile – Charlton Athletic FC* dirancang untuk menampilkan informasi lengkap tentang klub sepak bola Charlton Athletic FC secara real-time dengan memanfaatkan API publik dari **Football-Data.org**. Aplikasi ini dibuat menggunakan bahasa **Kotlin**, dengan dukungan **Retrofit** sebagai library komunikasi jaringan dan **Kotlin Coroutines** untuk pengelolaan proses asynchronous.
 
 ### **1. Inisialisasi dan Pemanggilan API**
 
-Ketika aplikasi pertama kali dijalankan, kelas **`MainActivity`** berperan sebagai titik masuk utama (*entry point*). Di dalam fungsi `onCreate()`, terdapat pemanggilan terhadap fungsi `loadTeamData()` yang bertugas untuk memuat data klub dari server. Fungsi ini memanggil endpoint utama Football-Data.org yang berada di alamat `https://api.football-data.org/v4/`, dengan parameter `teamId` yang sesuai dengan ID klub Nottingham Forest FC.
+Ketika aplikasi pertama kali dijalankan, kelas **`MainActivity`** berperan sebagai titik masuk utama (*entry point*). Di dalam fungsi `onCreate()`, terdapat pemanggilan terhadap fungsi `loadTeamData()` yang bertugas untuk memuat data klub dari server. Fungsi ini memanggil endpoint utama Football-Data.org yang berada di alamat `https://api.football-data.org/v4/`, dengan parameter `teamId` yang sesuai dengan ID klub Charlton Athletic FC.
 
 Pemanggilan API dilakukan melalui objek `RetrofitInstance`, yang telah dikonfigurasi untuk memiliki *base URL*, *GSON ConverterFactory*, dan antarmuka komunikasi (`FootballDataApi`) yang berisi definisi fungsi-fungsi endpoint. Pada fungsi `getTeam(id: Int)`, setiap permintaan ke server akan menyertakan *header* khusus berisi `X-Auth-Token`, yaitu API Key resmi dari Football-Data.org agar sistem dapat mengakses data yang bersifat terbatas.
 
@@ -81,9 +79,5 @@ Seluruh alur aplikasi ini dirancang mengikuti prinsip **modern Android developme
 
 ### **7. Kesimpulan**
 
-Dengan memanfaatkan teknologi **Retrofit**, **Kotlin Coroutines**, dan **Material Design Components**, aplikasi “Responsi 1 Mobile – Nottingham Forest FC” berhasil mengimplementasikan arsitektur modern yang efisien, interaktif, dan mudah dipelihara. Seluruh proses — mulai dari pemanggilan API, parsing data JSON, hingga penyajian hasil dalam antarmuka visual — berjalan secara terstruktur dan responsif. Hasil akhirnya adalah aplikasi mobile yang tidak hanya informatif tetapi juga estetis, dengan pengalaman pengguna yang ringan dan konsisten dengan standar pengembangan aplikasi Android profesional.
+Dengan memanfaatkan teknologi **Retrofit**, **Kotlin Coroutines**, dan **Material Design Components**, aplikasi “Responsi 1 Mobile – Charlton Athletic FC” berhasil mengimplementasikan arsitektur modern yang efisien, interaktif, dan mudah dipelihara. Seluruh proses — mulai dari pemanggilan API, parsing data JSON, hingga penyajian hasil dalam antarmuka visual — berjalan secara terstruktur dan responsif. Hasil akhirnya adalah aplikasi mobile yang tidak hanya informatif tetapi juga estetis, dengan pengalaman pengguna yang ringan dan konsisten dengan standar pengembangan aplikasi Android profesional.
 
----
-
-Kalimat di atas sudah ±2× lebih panjang dan menjelaskan detail alur teknis, arsitektur, dan UX.
-Apakah kamu mau versi **lebih formal untuk laporan akademik (bahasa baku dengan istilah teknis lengkap)** atau **versi semi santai untuk deskripsi proyek GitHub**?
